@@ -29,6 +29,68 @@ public class FhirPatientRepositoryTests
     }
 
     [Fact]
+    public async Task GetByFhirIdAsync_WithInvalidId_ShouldReturnFailure()
+    {
+        // Arrange
+        var invalidFhirId = "!@#invalid";
+        SetupHttpResponse(HttpStatusCode.BadRequest, "Bad Request");
+
+        // Act
+        var result = await _repository.GetByFhirIdAsync(invalidFhirId);
+
+        // Assert
+        result.IsFailure.Should().BeTrue();
+        result.Error.Should().Contain("Failed to retrieve patient");
+    }
+
+    [Fact]
+    public async Task GetByFhirIdAsync_WithNotFound_ShouldReturnNull()
+    {
+        // Arrange
+        var fhirId = "notfound-123";
+        SetupHttpResponse(HttpStatusCode.NotFound, "Not Found");
+
+        // Act
+        var result = await _repository.GetByFhirIdAsync(fhirId);
+
+        // Assert
+        result.IsSuccess.Should().BeTrue();
+        result.Value.Should().BeNull();
+    }
+
+    [Fact]
+    public async Task AddAsync_WithInvalidPatient_ShouldReturnFailure()
+    {
+        // Arrange
+        var invalidPatient = (Patient)null!;
+        // No HTTP call expected, but simulate a bad request if attempted
+        SetupHttpResponse(HttpStatusCode.BadRequest, "Bad Request");
+
+        // Act
+        var result = await _repository.AddAsync(invalidPatient);
+
+        // Assert
+        result.IsFailure.Should().BeTrue();
+        result.Error.Should().Contain("Invalid patient");
+    }
+
+    [Fact]
+    public async Task SearchByNameAsync_WithNoResults_ShouldReturnEmptyList()
+    {
+        // Arrange
+        var searchTerm = "Nonexistent";
+        var emptyBundle = "{\"resourceType\":\"Bundle\",\"entry\":[]}";
+        SetupHttpResponse(HttpStatusCode.OK, emptyBundle);
+
+        // Act
+        var result = await _repository.SearchByNameAsync(searchTerm);
+
+        // Assert
+        result.IsSuccess.Should().BeTrue();
+        result.Value.Should().BeEmpty();
+    }
+
+    [Fact]
     public async Task GetAllAsync_WithValidResponse_ShouldReturnPatients()
     {
         // Arrange

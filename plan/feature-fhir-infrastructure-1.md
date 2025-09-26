@@ -48,6 +48,11 @@ This plan defines the implementation of the FHIR Infrastructure layer for Patien
 | SearchByNameOrPhoneAsync_WithValidTerm_ShouldReturnMatchingPatients | Search by name or phone | Success, returns matching patients |
 | GetByFhirIdAsync_WithValidId_ShouldReturnPatient | Get patient by FHIR ID | Success, returns patient |
 
+| GetByFhirIdAsync_WithInvalidId_ShouldReturnFailure | Invalid FHIR ID | Failure, error message contains "Failed to retrieve patient" |
+| GetByFhirIdAsync_WithNotFound_ShouldReturnNull | FHIR ID not found | Success, returns null |
+| AddAsync_WithInvalidPatient_ShouldReturnFailure | Add invalid patient (null) | Failure, error message contains "Invalid patient" |
+| SearchByNameAsync_WithNoResults_ShouldReturnEmptyList | Search by name, no results | Success, returns empty list |
+
 > All tests are currently failing (red) as required by TDD. All CRUD/search scenarios and edge cases are covered by the above tests. Edge cases for HTTP errors and empty results are included. Additional edge cases (e.g., invalid input, not found) can be added in future iterations if needed.
 
 ### Implementation Phase 2
