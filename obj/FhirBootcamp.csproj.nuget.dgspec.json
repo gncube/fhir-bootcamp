@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/home/geraldn/WEBROOT/fhir-bootcamp/FhirBootcamp.csproj": {}
+    "C:\\Users\\Public\\REPOS\\fhir-bootcamp\\FhirBootcamp.csproj": {}
   },
   "projects": {
-    "/home/geraldn/WEBROOT/fhir-bootcamp/FhirBootcamp.csproj": {
+    "C:\\Users\\Public\\REPOS\\fhir-bootcamp\\FhirBootcamp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/geraldn/WEBROOT/fhir-bootcamp/FhirBootcamp.csproj",
+        "projectUniqueName": "C:\\Users\\Public\\REPOS\\fhir-bootcamp\\FhirBootcamp.csproj",
         "projectName": "FhirBootcamp",
-        "projectPath": "/home/geraldn/WEBROOT/fhir-bootcamp/FhirBootcamp.csproj",
-        "packagesPath": "/home/geraldn/.nuget/packages/",
-        "outputPath": "/home/geraldn/WEBROOT/fhir-bootcamp/obj/",
+        "projectPath": "C:\\Users\\Public\\REPOS\\fhir-bootcamp\\FhirBootcamp.csproj",
+        "packagesPath": "C:\\Users\\ge305130\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Public\\REPOS\\fhir-bootcamp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/geraldn/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\ge305130\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -56,13 +63,13 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.4, )",
+              "version": "[9.0.9, )",
               "autoReferenced": true
             },
             "Microsoft.NET.Sdk.WebAssembly.Pack": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.4, )",
+              "version": "[9.0.9, )",
               "autoReferenced": true
             }
           },
@@ -77,18 +84,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[9.0.4, 9.0.4]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100-rc.1.25451.107/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
