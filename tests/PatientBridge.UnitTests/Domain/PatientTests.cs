@@ -2,6 +2,7 @@
 using FluentAssertions;
 using PatientBridge.Core.Domain.Patients;
 using PatientBridge.Core.Domain.Patients.ValueObjects;
+using Xunit;
 
 namespace PatientBridge.UnitTests.Domain;
 
