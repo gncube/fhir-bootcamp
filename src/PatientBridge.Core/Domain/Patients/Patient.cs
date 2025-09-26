@@ -69,9 +69,4 @@ public class Patient
 
         return age;
     }
-
-    public static object Create(Result<PatientName> patientName, Gender gender, DateOnly dateOfBirth, Result<PhoneNumber> phoneNumber)
-    {
-        throw new NotImplementedException();
-    }
 }

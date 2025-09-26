@@ -12,10 +12,10 @@ public class PatientTests
     public void Create_WithValidData_ShouldCreatePatient()
     {
         // Arrange
-        var patientName = PatientName.Create("John", "Doe");
+        var patientName = BuildName("John", "Doe");
         var gender = Gender.Male;
         var dateOfBirth = DateOnly.FromDateTime(DateTime.Now.AddYears(-30));
-        var phoneNumber = PhoneNumber.Create("+1234567890");
+        var phoneNumber = BuildPhoneNumber("+1234567890");
 
         // Act
         var result = Patient.Create(patientName, gender, dateOfBirth, phoneNumber);
@@ -34,10 +34,10 @@ public class PatientTests
     public void Create_WithFutureDateOfBirth_ShouldFail()
     {
         // Arrange
-        var patientName = PatientName.Create("John", "Doe");
+        var patientName = BuildName("John", "Doe");
         var gender = Gender.Male;
         var futureDate = DateOnly.FromDateTime(DateTime.Now.AddYears(1));
-        var phoneNumber = PhoneNumber.Create("+1234567890");
+        var phoneNumber = BuildPhoneNumber("+1234567890");
 
         // Act
         var result = Patient.Create(patientName, gender, futureDate, phoneNumber);
@@ -52,8 +52,8 @@ public class PatientTests
     {
         // Arrange
         var patient = CreateValidPatient();
-        var newName = PatientName.Create("Jane", "Smith");
-        var newPhoneNumber = PhoneNumber.Create("+9876543210");
+        var newName = BuildName("Jane", "Smith");
+        var newPhoneNumber = BuildPhoneNumber("+9876543210");
 
         // Act
         var result = patient.UpdateDetails(newName, Gender.Female, patient.DateOfBirth, newPhoneNumber);
@@ -69,10 +69,10 @@ public class PatientTests
     [InlineData("")]
     [InlineData(null)]
     [InlineData("   ")]
-    public void Create_WithInvalidFirstName_ShouldFail(string firstName)
+    public void Create_WithInvalidFirstName_ShouldFail(string? firstName)
     {
         // Act & Assert
-        var result = PatientName.Create(firstName, "Doe");
+        var result = PatientName.Create(firstName!, "Doe");
         result.IsFailure.Should().BeTrue();
         result.Error.Should().Contain("First name is required");
     }
@@ -81,10 +81,10 @@ public class PatientTests
     [InlineData("")]
     [InlineData(null)]
     [InlineData("   ")]
-    public void Create_WithInvalidLastName_ShouldFail(string lastName)
+    public void Create_WithInvalidLastName_ShouldFail(string? lastName)
     {
         // Act & Assert
-        var result = PatientName.Create("John", lastName);
+        var result = PatientName.Create("John", lastName!);
         result.IsFailure.Should().BeTrue();
         result.Error.Should().Contain("Last name is required");
     }
@@ -147,7 +147,7 @@ public class PatientTests
         Thread.Sleep(10); // Ensure time difference
 
         // Act
-        var newName = PatientName.Create("Updated", "Name");
+        var newName = BuildName("Updated", "Name");
         patient.UpdateDetails(newName, patient.Gender, patient.DateOfBirth, patient.PhoneNumber);
 
         // Assert
@@ -156,11 +156,27 @@ public class PatientTests
 
     private static Patient CreateValidPatient()
     {
-        var name = PatientName.Create("John", "Doe");
+        var name = BuildName("John", "Doe");
         var gender = Gender.Male;
         var dateOfBirth = DateOnly.FromDateTime(DateTime.Now.AddYears(-30));
-        var phoneNumber = PhoneNumber.Create("+1234567890");
+        var phoneNumber = BuildPhoneNumber("+1234567890");
 
-        return Patient.Create(name, gender, dateOfBirth, phoneNumber).Value;
+        var patientResult = Patient.Create(name, gender, dateOfBirth, phoneNumber);
+        patientResult.IsSuccess.Should().BeTrue();
+        return patientResult.Value;
+    }
+
+    private static PatientName BuildName(string firstName, string lastName)
+    {
+        var result = PatientName.Create(firstName, lastName);
+        result.IsSuccess.Should().BeTrue();
+        return result.Value;
+    }
+
+    private static PhoneNumber BuildPhoneNumber(string value)
+    {
+        var result = PhoneNumber.Create(value);
+        result.IsSuccess.Should().BeTrue();
+        return result.Value;
     }
 }

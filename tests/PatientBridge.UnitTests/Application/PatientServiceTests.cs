@@ -217,11 +217,17 @@ public class PatientServiceTests
 
     private static Patient CreateValidPatient()
     {
-        var name = PatientName.Create("John", "Doe");
+        var nameResult = PatientName.Create("John", "Doe");
+        nameResult.IsSuccess.Should().BeTrue();
+        var name = nameResult.Value;
         var gender = Gender.Male;
         var dateOfBirth = DateOnly.FromDateTime(DateTime.Now.AddYears(-30));
-        var phoneNumber = PhoneNumber.Create("+1234567890");
+        var phoneNumberResult = PhoneNumber.Create("+1234567890");
+        phoneNumberResult.IsSuccess.Should().BeTrue();
+        var phoneNumber = phoneNumberResult.Value;
 
-        return Patient.Create(name, gender, dateOfBirth, phoneNumber).Value;
+        var patientResult = Patient.Create(name, gender, dateOfBirth, phoneNumber);
+        patientResult.IsSuccess.Should().BeTrue();
+        return patientResult.Value;
     }
 }
