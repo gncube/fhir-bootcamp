@@ -17,4 +17,9 @@
     <ServiceWorker Include="wwwroot\service-worker.js" PublishedContent="wwwroot\service-worker.published.js" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PatientBridge.Core\PatientBridge.Core.csproj" />
+    <ProjectReference Include="..\PatientBridge.Infrastructure\PatientBridge.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
