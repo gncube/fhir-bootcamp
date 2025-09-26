@@ -16,7 +16,7 @@
 ```bash
 # Solution Setup
 dotnet new sln
-dotnet new blazorwasm -n PatientBridge.Client -o src/Client --auth IndividualB2C -p -e
+dotnet new blazorwasm -n PatientBridge.Client -o src/Client --auth IndividualB2C -p -e -f net9.0
 dotnet new classlib -o src/PatientBridge.Core
 dotnet new classlib -o src/PatientBridge.Infrastructure
 dotnet new xunit -o tests/PatientBridge.UnitTests
