@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FhirBootcamp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4d2c543220c742a0bc2122fe8a9aebb11205a5b4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6846c272ad8c7555005aef4103ca2322329da21f")]
 [assembly: System.Reflection.AssemblyProductAttribute("FhirBootcamp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FhirBootcamp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
