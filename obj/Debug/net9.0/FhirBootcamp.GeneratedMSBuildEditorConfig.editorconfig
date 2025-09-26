@@ -29,27 +29,3 @@ build_property.EnableCodeStyleSeverity =
 [C:/Users/Public/REPOS/fhir-bootcamp/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Public/REPOS/fhir-bootcamp/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Public/REPOS/fhir-bootcamp/Pages/Home.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Public/REPOS/fhir-bootcamp/Pages/Weather.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VhdGhlci5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Public/REPOS/fhir-bootcamp/_Imports.razor]
-build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Public/REPOS/fhir-bootcamp/Layout/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-ymsdhceytb
-
-[C:/Users/Public/REPOS/fhir-bootcamp/Layout/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-dqgyv2vm65
