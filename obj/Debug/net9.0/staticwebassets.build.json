@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "j5TsIYVjKDNfYdj4DyFxhaxsYz9eHR2Oy8vo411PgDM=",
+  "Hash": "tfsAlkkBVzhoJP+bCDk+iVQDmeZHfzQtiU9WTG3FViE=",
   "Source": "FhirBootcamp",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "iqq0e675qg",
-      "Integrity": "piKukViowe3j4DdkTMKiVbptfMb5x5QX1jDx7DMj1mY=",
+      "Fingerprint": "r3wwq6pmx2",
+      "Integrity": "h6yMVTYLEAxTQx9EY3tUb5n2jrOSfJzThsY/4/4nTkc=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj/Debug/net9.0/blazor.boot.json"
@@ -199,8 +199,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "vfsmqykhqd",
-      "Integrity": "e9tBdsxNv41mwJ74gwngls7890OXW27tFnEnoqHdQ7Y=",
+      "Fingerprint": "mialqycnu2",
+      "Integrity": "fsr1nTUJF/8RpzE24VTL0fnYlgpdsXQPY1HdsoFcuOs=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj/Debug/net9.0/FhirBootcamp.pdb"
@@ -220,8 +220,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "r1i45epkls",
-      "Integrity": "X+HSvlQgC9AEdA/uQKLl8o7ommBgGZAq9xwEB69y5JE=",
+      "Fingerprint": "fb7yv9l308",
+      "Integrity": "dVMmeYGzXVfhg9CNipiDwCN9GvZG2ICh0cbCu+tX8dI=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/geraldn/WEBROOT/fhir-bootcamp/obj/Debug/net9.0/webcil/FhirBootcamp.wasm"
@@ -6464,12 +6464,12 @@
       "OriginalItemSpec": "/home/geraldn/WEBROOT/fhir-bootcamp/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
     },
     {
-      "Identity": "/home/geraldn/WEBROOT/fhir-bootcamp/obj/Debug/net9.0/compressed/dxvibkreb7-r1i45epkls.gz",
+      "Identity": "/home/geraldn/WEBROOT/fhir-bootcamp/obj/Debug/net9.0/compressed/dxvibkreb7-fb7yv9l308.gz",
       "SourceId": "FhirBootcamp",
       "SourceType": "Computed",
       "ContentRoot": "/home/geraldn/WEBROOT/fhir-bootcamp/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "_framework/FhirBootcamp#[.{fingerprint=r1i45epkls}]!.wasm.gz",
+      "RelativePath": "_framework/FhirBootcamp#[.{fingerprint=fb7yv9l308}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -6478,8 +6478,8 @@
       "RelatedAsset": "/home/geraldn/WEBROOT/fhir-bootcamp/bin/Debug/net9.0/wwwroot/_framework/FhirBootcamp.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "fwbuow3nam",
-      "Integrity": "vx+oPacxQV0wym9S/dn4qimfOmY1Vq5X4/7OX7x1ehI=",
+      "Fingerprint": "332yf5srjk",
+      "Integrity": "D2J3uAUSufg6C1zbVINYYIWa82kyLOTNcIkvRKEoY8A=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/geraldn/WEBROOT/fhir-bootcamp/bin/Debug/net9.0/wwwroot/_framework/FhirBootcamp.wasm"
@@ -8627,7 +8627,7 @@
       "OriginalItemSpec": "/home/geraldn/WEBROOT/fhir-bootcamp/bin/Debug/net9.0/wwwroot/_framework/System.Resources.ResourceManager.wasm"
     },
     {
-      "Identity": "/home/geraldn/WEBROOT/fhir-bootcamp/obj/Debug/net9.0/compressed/t1l1m74037-iqq0e675qg.gz",
+      "Identity": "/home/geraldn/WEBROOT/fhir-bootcamp/obj/Debug/net9.0/compressed/t1l1m74037-r3wwq6pmx2.gz",
       "SourceId": "FhirBootcamp",
       "SourceType": "Computed",
       "ContentRoot": "/home/geraldn/WEBROOT/fhir-bootcamp/obj/Debug/net9.0/compressed/",
@@ -8641,8 +8641,8 @@
       "RelatedAsset": "/home/geraldn/WEBROOT/fhir-bootcamp/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "se9r7ov0yb",
-      "Integrity": "nOBISPHpRQ3SDRgmZ+1/IoVATHIU+9cFa27LwYDn/Tw=",
+      "Fingerprint": "6gr0ldj1nq",
+      "Integrity": "9oOgTmPmjUUugskXBw1jBvoUtX+L9/7HHOIoPTbJI6c=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/geraldn/WEBROOT/fhir-bootcamp/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json"
@@ -9509,12 +9509,12 @@
       "OriginalItemSpec": "/home/geraldn/WEBROOT/fhir-bootcamp/bin/Debug/net9.0/wwwroot/_framework/System.Net.Primitives.wasm"
     },
     {
-      "Identity": "/home/geraldn/WEBROOT/fhir-bootcamp/obj/Debug/net9.0/compressed/yxa9qvcs1s-vfsmqykhqd.gz",
+      "Identity": "/home/geraldn/WEBROOT/fhir-bootcamp/obj/Debug/net9.0/compressed/yxa9qvcs1s-mialqycnu2.gz",
       "SourceId": "FhirBootcamp",
       "SourceType": "Computed",
       "ContentRoot": "/home/geraldn/WEBROOT/fhir-bootcamp/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "_framework/FhirBootcamp#[.{fingerprint=vfsmqykhqd}]!.pdb.gz",
+      "RelativePath": "_framework/FhirBootcamp#[.{fingerprint=mialqycnu2}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -9523,8 +9523,8 @@
       "RelatedAsset": "/home/geraldn/WEBROOT/fhir-bootcamp/bin/Debug/net9.0/wwwroot/_framework/FhirBootcamp.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "jb4atdufx5",
-      "Integrity": "oZroOOw6IDrnhRDy+YlW4nB1DYHerxjPtPuHp9aEIig=",
+      "Fingerprint": "7yce4g66j4",
+      "Integrity": "8SICLMWbrqf2rc1+C0pKdfnSRDFJOzgHjS1OFxls0NQ=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/geraldn/WEBROOT/fhir-bootcamp/bin/Debug/net9.0/wwwroot/_framework/FhirBootcamp.pdb"
@@ -10705,7 +10705,46 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"piKukViowe3j4DdkTMKiVbptfMb5x5QX1jDx7DMj1mY=\""
+          "Value": "\"h6yMVTYLEAxTQx9EY3tUb5n2jrOSfJzThsY/4/4nTkc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 26 Sep 2025 06:05:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-h6yMVTYLEAxTQx9EY3tUb5n2jrOSfJzThsY/4/4nTkc="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/blazor.boot.json",
+      "AssetFile": "/home/geraldn/WEBROOT/fhir-bootcamp/obj/Debug/net9.0/compressed/t1l1m74037-r3wwq6pmx2.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000081280988"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12302"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9oOgTmPmjUUugskXBw1jBvoUtX+L9/7HHOIoPTbJI6c=\""
         },
         {
           "Name": "Last-Modified",
@@ -10714,45 +10753,6 @@
         {
           "Name": "Cache-Control",
           "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-piKukViowe3j4DdkTMKiVbptfMb5x5QX1jDx7DMj1mY="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/blazor.boot.json",
-      "AssetFile": "/home/geraldn/WEBROOT/fhir-bootcamp/obj/Debug/net9.0/compressed/t1l1m74037-iqq0e675qg.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000081287596"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "12301"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"nOBISPHpRQ3SDRgmZ+1/IoVATHIU+9cFa27LwYDn/Tw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 26 Sep 2025 05:59:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -10768,19 +10768,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"piKukViowe3j4DdkTMKiVbptfMb5x5QX1jDx7DMj1mY=\""
+          "Value": "W/\"h6yMVTYLEAxTQx9EY3tUb5n2jrOSfJzThsY/4/4nTkc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-piKukViowe3j4DdkTMKiVbptfMb5x5QX1jDx7DMj1mY="
+          "Value": "sha256-h6yMVTYLEAxTQx9EY3tUb5n2jrOSfJzThsY/4/4nTkc="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "/home/geraldn/WEBROOT/fhir-bootcamp/obj/Debug/net9.0/compressed/t1l1m74037-iqq0e675qg.gz",
+      "AssetFile": "/home/geraldn/WEBROOT/fhir-bootcamp/obj/Debug/net9.0/compressed/t1l1m74037-r3wwq6pmx2.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10789,7 +10789,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12301"
+          "Value": "12302"
         },
         {
           "Name": "Content-Type",
@@ -10797,11 +10797,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"nOBISPHpRQ3SDRgmZ+1/IoVATHIU+9cFa27LwYDn/Tw=\""
+          "Value": "\"9oOgTmPmjUUugskXBw1jBvoUtX+L9/7HHOIoPTbJI6c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 26 Sep 2025 05:59:20 GMT"
+          "Value": "Fri, 26 Sep 2025 05:59:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10819,7 +10819,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-nOBISPHpRQ3SDRgmZ+1/IoVATHIU+9cFa27LwYDn/Tw="
+          "Value": "sha256-9oOgTmPmjUUugskXBw1jBvoUtX+L9/7HHOIoPTbJI6c="
         }
       ]
     },
@@ -12749,144 +12749,7 @@
       ]
     },
     {
-      "Route": "_framework/FhirBootcamp.pdb",
-      "AssetFile": "/home/geraldn/WEBROOT/fhir-bootcamp/bin/Debug/net9.0/wwwroot/_framework/FhirBootcamp.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "23268"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"e9tBdsxNv41mwJ74gwngls7890OXW27tFnEnoqHdQ7Y=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 26 Sep 2025 05:59:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-e9tBdsxNv41mwJ74gwngls7890OXW27tFnEnoqHdQ7Y="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/FhirBootcamp.pdb",
-      "AssetFile": "/home/geraldn/WEBROOT/fhir-bootcamp/obj/Debug/net9.0/compressed/yxa9qvcs1s-vfsmqykhqd.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000059350703"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "16848"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"oZroOOw6IDrnhRDy+YlW4nB1DYHerxjPtPuHp9aEIig=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 26 Sep 2025 05:59:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"e9tBdsxNv41mwJ74gwngls7890OXW27tFnEnoqHdQ7Y=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-e9tBdsxNv41mwJ74gwngls7890OXW27tFnEnoqHdQ7Y="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/FhirBootcamp.pdb.gz",
-      "AssetFile": "/home/geraldn/WEBROOT/fhir-bootcamp/obj/Debug/net9.0/compressed/yxa9qvcs1s-vfsmqykhqd.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "16848"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"oZroOOw6IDrnhRDy+YlW4nB1DYHerxjPtPuHp9aEIig=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 26 Sep 2025 05:59:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-oZroOOw6IDrnhRDy+YlW4nB1DYHerxjPtPuHp9aEIig="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/FhirBootcamp.r1i45epkls.wasm",
+      "Route": "_framework/FhirBootcamp.fb7yv9l308.wasm",
       "AssetFile": "/home/geraldn/WEBROOT/fhir-bootcamp/bin/Debug/net9.0/wwwroot/_framework/FhirBootcamp.wasm",
       "Selectors": [],
       "ResponseHeaders": [
@@ -12904,11 +12767,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"X+HSvlQgC9AEdA/uQKLl8o7ommBgGZAq9xwEB69y5JE=\""
+          "Value": "\"dVMmeYGzXVfhg9CNipiDwCN9GvZG2ICh0cbCu+tX8dI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 26 Sep 2025 05:59:18 GMT"
+          "Value": "Fri, 26 Sep 2025 06:05:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12918,7 +12781,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "r1i45epkls"
+          "Value": "fb7yv9l308"
         },
         {
           "Name": "label",
@@ -12926,18 +12789,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-X+HSvlQgC9AEdA/uQKLl8o7ommBgGZAq9xwEB69y5JE="
+          "Value": "sha256-dVMmeYGzXVfhg9CNipiDwCN9GvZG2ICh0cbCu+tX8dI="
         }
       ]
     },
     {
-      "Route": "_framework/FhirBootcamp.r1i45epkls.wasm",
-      "AssetFile": "/home/geraldn/WEBROOT/fhir-bootcamp/obj/Debug/net9.0/compressed/dxvibkreb7-r1i45epkls.gz",
+      "Route": "_framework/FhirBootcamp.fb7yv9l308.wasm",
+      "AssetFile": "/home/geraldn/WEBROOT/fhir-bootcamp/obj/Debug/net9.0/compressed/dxvibkreb7-fb7yv9l308.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000129769011"
+          "Quality": "0.000128139416"
         }
       ],
       "ResponseHeaders": [
@@ -12947,15 +12810,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7705"
+          "Value": "7803"
         },
         {
           "Name": "ETag",
-          "Value": "\"vx+oPacxQV0wym9S/dn4qimfOmY1Vq5X4/7OX7x1ehI=\""
+          "Value": "\"D2J3uAUSufg6C1zbVINYYIWa82kyLOTNcIkvRKEoY8A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 26 Sep 2025 05:59:18 GMT"
+          "Value": "Fri, 26 Sep 2025 06:05:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12975,13 +12838,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"X+HSvlQgC9AEdA/uQKLl8o7ommBgGZAq9xwEB69y5JE=\""
+          "Value": "W/\"dVMmeYGzXVfhg9CNipiDwCN9GvZG2ICh0cbCu+tX8dI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "r1i45epkls"
+          "Value": "fb7yv9l308"
         },
         {
           "Name": "label",
@@ -12989,13 +12852,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-X+HSvlQgC9AEdA/uQKLl8o7ommBgGZAq9xwEB69y5JE="
+          "Value": "sha256-dVMmeYGzXVfhg9CNipiDwCN9GvZG2ICh0cbCu+tX8dI="
         }
       ]
     },
     {
-      "Route": "_framework/FhirBootcamp.r1i45epkls.wasm.gz",
-      "AssetFile": "/home/geraldn/WEBROOT/fhir-bootcamp/obj/Debug/net9.0/compressed/dxvibkreb7-r1i45epkls.gz",
+      "Route": "_framework/FhirBootcamp.fb7yv9l308.wasm.gz",
+      "AssetFile": "/home/geraldn/WEBROOT/fhir-bootcamp/obj/Debug/net9.0/compressed/dxvibkreb7-fb7yv9l308.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13004,7 +12867,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7705"
+          "Value": "7803"
         },
         {
           "Name": "Content-Type",
@@ -13012,11 +12875,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vx+oPacxQV0wym9S/dn4qimfOmY1Vq5X4/7OX7x1ehI=\""
+          "Value": "\"D2J3uAUSufg6C1zbVINYYIWa82kyLOTNcIkvRKEoY8A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 26 Sep 2025 05:59:18 GMT"
+          "Value": "Fri, 26 Sep 2025 06:05:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13034,7 +12897,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "r1i45epkls"
+          "Value": "fb7yv9l308"
         },
         {
           "Name": "label",
@@ -13042,12 +12905,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-vx+oPacxQV0wym9S/dn4qimfOmY1Vq5X4/7OX7x1ehI="
+          "Value": "sha256-D2J3uAUSufg6C1zbVINYYIWa82kyLOTNcIkvRKEoY8A="
         }
       ]
     },
     {
-      "Route": "_framework/FhirBootcamp.vfsmqykhqd.pdb",
+      "Route": "_framework/FhirBootcamp.mialqycnu2.pdb",
       "AssetFile": "/home/geraldn/WEBROOT/fhir-bootcamp/bin/Debug/net9.0/wwwroot/_framework/FhirBootcamp.pdb",
       "Selectors": [],
       "ResponseHeaders": [
@@ -13065,11 +12928,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"e9tBdsxNv41mwJ74gwngls7890OXW27tFnEnoqHdQ7Y=\""
+          "Value": "\"fsr1nTUJF/8RpzE24VTL0fnYlgpdsXQPY1HdsoFcuOs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 26 Sep 2025 05:59:18 GMT"
+          "Value": "Fri, 26 Sep 2025 06:05:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13079,7 +12942,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "vfsmqykhqd"
+          "Value": "mialqycnu2"
         },
         {
           "Name": "label",
@@ -13087,13 +12950,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-e9tBdsxNv41mwJ74gwngls7890OXW27tFnEnoqHdQ7Y="
+          "Value": "sha256-fsr1nTUJF/8RpzE24VTL0fnYlgpdsXQPY1HdsoFcuOs="
         }
       ]
     },
     {
-      "Route": "_framework/FhirBootcamp.vfsmqykhqd.pdb",
-      "AssetFile": "/home/geraldn/WEBROOT/fhir-bootcamp/obj/Debug/net9.0/compressed/yxa9qvcs1s-vfsmqykhqd.gz",
+      "Route": "_framework/FhirBootcamp.mialqycnu2.pdb",
+      "AssetFile": "/home/geraldn/WEBROOT/fhir-bootcamp/obj/Debug/net9.0/compressed/yxa9qvcs1s-mialqycnu2.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -13112,11 +12975,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"oZroOOw6IDrnhRDy+YlW4nB1DYHerxjPtPuHp9aEIig=\""
+          "Value": "\"8SICLMWbrqf2rc1+C0pKdfnSRDFJOzgHjS1OFxls0NQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 26 Sep 2025 05:59:18 GMT"
+          "Value": "Fri, 26 Sep 2025 06:05:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13136,13 +12999,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"e9tBdsxNv41mwJ74gwngls7890OXW27tFnEnoqHdQ7Y=\""
+          "Value": "W/\"fsr1nTUJF/8RpzE24VTL0fnYlgpdsXQPY1HdsoFcuOs=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "vfsmqykhqd"
+          "Value": "mialqycnu2"
         },
         {
           "Name": "label",
@@ -13150,13 +13013,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-e9tBdsxNv41mwJ74gwngls7890OXW27tFnEnoqHdQ7Y="
+          "Value": "sha256-fsr1nTUJF/8RpzE24VTL0fnYlgpdsXQPY1HdsoFcuOs="
         }
       ]
     },
     {
-      "Route": "_framework/FhirBootcamp.vfsmqykhqd.pdb.gz",
-      "AssetFile": "/home/geraldn/WEBROOT/fhir-bootcamp/obj/Debug/net9.0/compressed/yxa9qvcs1s-vfsmqykhqd.gz",
+      "Route": "_framework/FhirBootcamp.mialqycnu2.pdb.gz",
+      "AssetFile": "/home/geraldn/WEBROOT/fhir-bootcamp/obj/Debug/net9.0/compressed/yxa9qvcs1s-mialqycnu2.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13173,11 +13036,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"oZroOOw6IDrnhRDy+YlW4nB1DYHerxjPtPuHp9aEIig=\""
+          "Value": "\"8SICLMWbrqf2rc1+C0pKdfnSRDFJOzgHjS1OFxls0NQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 26 Sep 2025 05:59:18 GMT"
+          "Value": "Fri, 26 Sep 2025 06:05:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13195,7 +13058,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "vfsmqykhqd"
+          "Value": "mialqycnu2"
         },
         {
           "Name": "label",
@@ -13203,7 +13066,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-oZroOOw6IDrnhRDy+YlW4nB1DYHerxjPtPuHp9aEIig="
+          "Value": "sha256-8SICLMWbrqf2rc1+C0pKdfnSRDFJOzgHjS1OFxls0NQ="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/FhirBootcamp.pdb",
+      "AssetFile": "/home/geraldn/WEBROOT/fhir-bootcamp/bin/Debug/net9.0/wwwroot/_framework/FhirBootcamp.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23268"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fsr1nTUJF/8RpzE24VTL0fnYlgpdsXQPY1HdsoFcuOs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 26 Sep 2025 06:05:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fsr1nTUJF/8RpzE24VTL0fnYlgpdsXQPY1HdsoFcuOs="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/FhirBootcamp.pdb",
+      "AssetFile": "/home/geraldn/WEBROOT/fhir-bootcamp/obj/Debug/net9.0/compressed/yxa9qvcs1s-mialqycnu2.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000059350703"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16848"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8SICLMWbrqf2rc1+C0pKdfnSRDFJOzgHjS1OFxls0NQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 26 Sep 2025 06:05:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"fsr1nTUJF/8RpzE24VTL0fnYlgpdsXQPY1HdsoFcuOs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fsr1nTUJF/8RpzE24VTL0fnYlgpdsXQPY1HdsoFcuOs="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/FhirBootcamp.pdb.gz",
+      "AssetFile": "/home/geraldn/WEBROOT/fhir-bootcamp/obj/Debug/net9.0/compressed/yxa9qvcs1s-mialqycnu2.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16848"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8SICLMWbrqf2rc1+C0pKdfnSRDFJOzgHjS1OFxls0NQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 26 Sep 2025 06:05:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8SICLMWbrqf2rc1+C0pKdfnSRDFJOzgHjS1OFxls0NQ="
         }
       ]
     },
@@ -13226,11 +13226,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"X+HSvlQgC9AEdA/uQKLl8o7ommBgGZAq9xwEB69y5JE=\""
+          "Value": "\"dVMmeYGzXVfhg9CNipiDwCN9GvZG2ICh0cbCu+tX8dI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 26 Sep 2025 05:59:18 GMT"
+          "Value": "Fri, 26 Sep 2025 06:05:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13240,18 +13240,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-X+HSvlQgC9AEdA/uQKLl8o7ommBgGZAq9xwEB69y5JE="
+          "Value": "sha256-dVMmeYGzXVfhg9CNipiDwCN9GvZG2ICh0cbCu+tX8dI="
         }
       ]
     },
     {
       "Route": "_framework/FhirBootcamp.wasm",
-      "AssetFile": "/home/geraldn/WEBROOT/fhir-bootcamp/obj/Debug/net9.0/compressed/dxvibkreb7-r1i45epkls.gz",
+      "AssetFile": "/home/geraldn/WEBROOT/fhir-bootcamp/obj/Debug/net9.0/compressed/dxvibkreb7-fb7yv9l308.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000129769011"
+          "Quality": "0.000128139416"
         }
       ],
       "ResponseHeaders": [
@@ -13261,15 +13261,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7705"
+          "Value": "7803"
         },
         {
           "Name": "ETag",
-          "Value": "\"vx+oPacxQV0wym9S/dn4qimfOmY1Vq5X4/7OX7x1ehI=\""
+          "Value": "\"D2J3uAUSufg6C1zbVINYYIWa82kyLOTNcIkvRKEoY8A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 26 Sep 2025 05:59:18 GMT"
+          "Value": "Fri, 26 Sep 2025 06:05:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13289,19 +13289,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"X+HSvlQgC9AEdA/uQKLl8o7ommBgGZAq9xwEB69y5JE=\""
+          "Value": "W/\"dVMmeYGzXVfhg9CNipiDwCN9GvZG2ICh0cbCu+tX8dI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-X+HSvlQgC9AEdA/uQKLl8o7ommBgGZAq9xwEB69y5JE="
+          "Value": "sha256-dVMmeYGzXVfhg9CNipiDwCN9GvZG2ICh0cbCu+tX8dI="
         }
       ]
     },
     {
       "Route": "_framework/FhirBootcamp.wasm.gz",
-      "AssetFile": "/home/geraldn/WEBROOT/fhir-bootcamp/obj/Debug/net9.0/compressed/dxvibkreb7-r1i45epkls.gz",
+      "AssetFile": "/home/geraldn/WEBROOT/fhir-bootcamp/obj/Debug/net9.0/compressed/dxvibkreb7-fb7yv9l308.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13310,7 +13310,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7705"
+          "Value": "7803"
         },
         {
           "Name": "Content-Type",
@@ -13318,11 +13318,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vx+oPacxQV0wym9S/dn4qimfOmY1Vq5X4/7OX7x1ehI=\""
+          "Value": "\"D2J3uAUSufg6C1zbVINYYIWa82kyLOTNcIkvRKEoY8A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 26 Sep 2025 05:59:18 GMT"
+          "Value": "Fri, 26 Sep 2025 06:05:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13340,7 +13340,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-vx+oPacxQV0wym9S/dn4qimfOmY1Vq5X4/7OX7x1ehI="
+          "Value": "sha256-D2J3uAUSufg6C1zbVINYYIWa82kyLOTNcIkvRKEoY8A="
         }
       ]
     },

@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "FhirBootcamp",
   "resources": {
-    "hash": "sha256-Y8HqFK3RqmFp+SzNTi/E/Nn+DTHJhTmHt8mMVlkksEg=",
+    "hash": "sha256-Z1AuBg1mxJYWV+aW3S3woOrpMhiTVHqmZQfA72l+LFY=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Authorization.gf26ou9jj9.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.v3fd2n5hlr.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -201,8 +201,8 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "FhirBootcamp.r1i45epkls.wasm": "FhirBootcamp.wasm",
-      "FhirBootcamp.vfsmqykhqd.pdb": "FhirBootcamp.pdb"
+      "FhirBootcamp.fb7yv9l308.wasm": "FhirBootcamp.wasm",
+      "FhirBootcamp.mialqycnu2.pdb": "FhirBootcamp.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.hvg7u8bimp.js": "sha256-LX9rFEWGVxhkOkAVPG0w5RxPwzPBlEUz6dQNjWS7M+M="
@@ -412,10 +412,10 @@
       "WindowsBase.5lai2eowco.wasm": "sha256-GcDi5293y2A7oSiFYTbBTUe0d+ISbvgeel4ZNd8KkPM=",
       "mscorlib.wzkfrp7u5k.wasm": "sha256-9PjsU0gaxxz5Vyw++p9DeYUWLsaXbaMS2RbX6wmTUmk=",
       "netstandard.d82br99ghv.wasm": "sha256-DS8keXxU4eQpa1kIoiFxOA2Ii2g9hoNWSaVi8F8AnIE=",
-      "FhirBootcamp.r1i45epkls.wasm": "sha256-X+HSvlQgC9AEdA/uQKLl8o7ommBgGZAq9xwEB69y5JE="
+      "FhirBootcamp.fb7yv9l308.wasm": "sha256-dVMmeYGzXVfhg9CNipiDwCN9GvZG2ICh0cbCu+tX8dI="
     },
     "pdb": {
-      "FhirBootcamp.vfsmqykhqd.pdb": "sha256-e9tBdsxNv41mwJ74gwngls7890OXW27tFnEnoqHdQ7Y="
+      "FhirBootcamp.mialqycnu2.pdb": "sha256-fsr1nTUJF/8RpzE24VTL0fnYlgpdsXQPY1HdsoFcuOs="
     }
   },
   "cacheBootResources": true,

@@ -6,8 +6,6 @@
 /home/geraldn/WEBROOT/fhir-bootcamp/bin/Debug/net9.0/wwwroot/_framework/dotnet.native.3c4wvb350q.wasm
 /home/geraldn/WEBROOT/fhir-bootcamp/bin/Debug/net9.0/wwwroot/_framework/dotnet.runtime.cymp1amu5g.js
 /home/geraldn/WEBROOT/fhir-bootcamp/bin/Debug/net9.0/wwwroot/_framework/dotnet.runtime.js.map
-/home/geraldn/WEBROOT/fhir-bootcamp/bin/Debug/net9.0/wwwroot/_framework/FhirBootcamp.vfsmqykhqd.pdb
-/home/geraldn/WEBROOT/fhir-bootcamp/bin/Debug/net9.0/wwwroot/_framework/FhirBootcamp.r1i45epkls.wasm
 /home/geraldn/WEBROOT/fhir-bootcamp/bin/Debug/net9.0/wwwroot/_framework/icudt_CJK.tjcz0u77k5.dat
 /home/geraldn/WEBROOT/fhir-bootcamp/bin/Debug/net9.0/wwwroot/_framework/icudt_EFIGS.tptq2av103.dat
 /home/geraldn/WEBROOT/fhir-bootcamp/bin/Debug/net9.0/wwwroot/_framework/icudt_no_CJK.lfu7j35m59.dat
@@ -284,7 +282,6 @@
 /home/geraldn/WEBROOT/fhir-bootcamp/bin/Debug/net9.0/wwwroot/_framework/System.Xml.XPath.dhry31foc0.wasm.gz
 /home/geraldn/WEBROOT/fhir-bootcamp/bin/Debug/net9.0/wwwroot/_framework/System.Reflection.TypeExtensions.3129t08e49.wasm.gz
 /home/geraldn/WEBROOT/fhir-bootcamp/bin/Debug/net9.0/wwwroot/_framework/System.Threading.ck6tnk99mb.wasm.gz
-/home/geraldn/WEBROOT/fhir-bootcamp/bin/Debug/net9.0/wwwroot/_framework/FhirBootcamp.r1i45epkls.wasm.gz
 /home/geraldn/WEBROOT/fhir-bootcamp/bin/Debug/net9.0/wwwroot/_framework/System.Net.Mail.f3pglyh6di.wasm.gz
 /home/geraldn/WEBROOT/fhir-bootcamp/bin/Debug/net9.0/wwwroot/_framework/System.Threading.Overlapped.7e0yhag6uc.wasm.gz
 /home/geraldn/WEBROOT/fhir-bootcamp/bin/Debug/net9.0/wwwroot/_framework/Microsoft.Extensions.FileSystemGlobbing.049i7yetdr.wasm.gz
@@ -402,7 +399,6 @@
 /home/geraldn/WEBROOT/fhir-bootcamp/bin/Debug/net9.0/wwwroot/_framework/System.Reflection.Primitives.rfzul0irlu.wasm.gz
 /home/geraldn/WEBROOT/fhir-bootcamp/bin/Debug/net9.0/wwwroot/_framework/System.Net.Ping.9fz83usnsr.wasm.gz
 /home/geraldn/WEBROOT/fhir-bootcamp/bin/Debug/net9.0/wwwroot/_framework/System.Net.Primitives.ztjd6fle53.wasm.gz
-/home/geraldn/WEBROOT/fhir-bootcamp/bin/Debug/net9.0/wwwroot/_framework/FhirBootcamp.vfsmqykhqd.pdb.gz
 /home/geraldn/WEBROOT/fhir-bootcamp/bin/Debug/net9.0/wwwroot/_framework/Microsoft.AspNetCore.Metadata.ru07a9pbbl.wasm.gz
 /home/geraldn/WEBROOT/fhir-bootcamp/bin/Debug/net9.0/wwwroot/_framework/System.Net.Security.wtosy0w12b.wasm.gz
 /home/geraldn/WEBROOT/fhir-bootcamp/bin/Debug/net9.0/wwwroot/_framework/System.Memory.xk4l9bmwh3.wasm.gz
@@ -1064,9 +1060,6 @@
 /home/geraldn/WEBROOT/fhir-bootcamp/obj/Debug/net9.0/compressed/hsbwnm6g3f-tjcz0u77k5.gz
 /home/geraldn/WEBROOT/fhir-bootcamp/obj/Debug/net9.0/compressed/cfm3zr413s-tptq2av103.gz
 /home/geraldn/WEBROOT/fhir-bootcamp/obj/Debug/net9.0/compressed/0vw6vbm5dv-lfu7j35m59.gz
-/home/geraldn/WEBROOT/fhir-bootcamp/obj/Debug/net9.0/compressed/dxvibkreb7-r1i45epkls.gz
-/home/geraldn/WEBROOT/fhir-bootcamp/obj/Debug/net9.0/compressed/yxa9qvcs1s-vfsmqykhqd.gz
-/home/geraldn/WEBROOT/fhir-bootcamp/obj/Debug/net9.0/compressed/t1l1m74037-iqq0e675qg.gz
 /home/geraldn/WEBROOT/fhir-bootcamp/obj/Debug/net9.0/staticwebassets.build.json
 /home/geraldn/WEBROOT/fhir-bootcamp/obj/Debug/net9.0/staticwebassets.development.json
 /home/geraldn/WEBROOT/fhir-bootcamp/obj/Debug/net9.0/staticwebassets.build.endpoints.json
@@ -1081,3 +1074,10 @@
 /home/geraldn/WEBROOT/fhir-bootcamp/obj/Debug/net9.0/refint/FhirBootcamp.dll
 /home/geraldn/WEBROOT/fhir-bootcamp/obj/Debug/net9.0/FhirBootcamp.pdb
 /home/geraldn/WEBROOT/fhir-bootcamp/obj/Debug/net9.0/ref/FhirBootcamp.dll
+/home/geraldn/WEBROOT/fhir-bootcamp/bin/Debug/net9.0/wwwroot/_framework/FhirBootcamp.mialqycnu2.pdb
+/home/geraldn/WEBROOT/fhir-bootcamp/bin/Debug/net9.0/wwwroot/_framework/FhirBootcamp.fb7yv9l308.wasm
+/home/geraldn/WEBROOT/fhir-bootcamp/bin/Debug/net9.0/wwwroot/_framework/FhirBootcamp.fb7yv9l308.wasm.gz
+/home/geraldn/WEBROOT/fhir-bootcamp/bin/Debug/net9.0/wwwroot/_framework/FhirBootcamp.mialqycnu2.pdb.gz
+/home/geraldn/WEBROOT/fhir-bootcamp/obj/Debug/net9.0/compressed/dxvibkreb7-fb7yv9l308.gz
+/home/geraldn/WEBROOT/fhir-bootcamp/obj/Debug/net9.0/compressed/yxa9qvcs1s-mialqycnu2.gz
+/home/geraldn/WEBROOT/fhir-bootcamp/obj/Debug/net9.0/compressed/t1l1m74037-r3wwq6pmx2.gz
