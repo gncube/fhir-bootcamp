@@ -25,7 +25,7 @@
 
 ## Technical Stack
 
-- C# with Blazor WebAssembly (net10.0)
+- C# with Blazor WebAssembly (net9.0)
 - Bootstrap, Bootstrap Icons, Font Awesome (free)
 - Azure Static Web Apps for hosting
 - FHIR server (configurable endpoint)
