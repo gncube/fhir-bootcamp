@@ -28,6 +28,66 @@ public class FhirPatientRepositoryTests
         _repository = new FhirPatientRepository(_httpClient);
     }
 
+    // Minimal test helpers for current scenarios
+    private void SetupHttpResponse(HttpStatusCode statusCode, string content)
+    {
+        _mockHttpHandler
+            .Protected()
+            .Setup<Task<HttpResponseMessage>>(
+                "SendAsync",
+                ItExpr.IsAny<HttpRequestMessage>(),
+                ItExpr.IsAny<CancellationToken>())
+            .ReturnsAsync(new HttpResponseMessage
+            {
+                StatusCode = statusCode,
+                Content = new StringContent(content, Encoding.UTF8, "application/json")
+            });
+    }
+
+    private string CreateFhirPatientBundle(params Patient[] patients)
+    {
+        // Minimal valid FHIR bundle mock
+        if (patients == null || patients.Length == 0)
+            return "{\"resourceType\":\"Bundle\",\"entry\":[]}";
+
+        var entries = patients.Select(p => $"{{\"resource\":{{\"resourceType\":\"Patient\",\"id\":\"{p.FhirId}\",\"name\":[{{\"given\":[\"{p.Name.FirstName}\"],\"family\":\"{p.Name.LastName}\"}}]}}}}")
+            .ToArray();
+        var entryJson = string.Join(",", entries);
+        return $"{{\"resourceType\":\"Bundle\",\"entry\":[{entryJson}]}}";
+    }
+
+    private Patient CreateValidPatient()
+    {
+        var nameResult = PatientName.Create("John", "Doe");
+        var phoneResult = PhoneNumber.Create("+15551234");
+        var gender = Gender.Male; // Use Gender.Male as default
+        var dob = DateOnly.Parse("1980-01-01");
+        if (!nameResult.IsSuccess || !phoneResult.IsSuccess)
+            throw new InvalidOperationException("Failed to create test patient name or phone");
+        var patientResult = Patient.Create(nameResult.Value, gender, dob, phoneResult.Value);
+        if (!patientResult.IsSuccess)
+            throw new InvalidOperationException("Failed to create test patient");
+        var patient = patientResult.Value;
+        patient.SetFhirId("patient-1");
+        return patient;
+    }
+
+    private string CreateFhirPatientResponse(Patient patient)
+    {
+        // Minimal valid FHIR Patient resource mock
+        return $"{{\"resourceType\":\"Patient\",\"id\":\"{patient.FhirId}\",\"name\":[{{\"given\":[\"{patient.Name.FirstName}\"],\"family\":\"{patient.Name.LastName}\"}}]}}";
+    }
+
+    private void VerifyHttpRequest(HttpMethod method, string url)
+    {
+        _mockHttpHandler.Protected().Verify(
+            "SendAsync",
+            Times.AtLeastOnce(),
+            ItExpr.Is<HttpRequestMessage>(req => req.Method == method && req.RequestUri!.ToString().Contains(url)),
+            ItExpr.IsAny<CancellationToken>()
+        );
+    }
+
     [Fact]
     public async Task GetByFhirIdAsync_WithInvalidId_ShouldReturnFailure()
     {
@@ -129,7 +189,10 @@ public class FhirPatientRepositoryTests
     {
         // Arrange
         var patient = CreateValidPatient();
-        var fhirPatientResponse = CreateFhirPatientResponse("patient-123");
+        // Simulate returned patient with FHIR ID "patient-123"
+        var returnedPatient = CreateValidPatient();
+        returnedPatient.SetFhirId("patient-123");
+        var fhirPatientResponse = CreateFhirPatientResponse(returnedPatient);
         SetupHttpResponse(HttpStatusCode.Created, fhirPatientResponse);
 
         // Act
@@ -183,7 +246,9 @@ public class FhirPatientRepositoryTests
     {
         // Arrange
         var fhirId = "patient-123";
-        var fhirPatientResponse = CreateFhirPatientResponse(fhirId);
+        var returnedPatient = CreateValidPatient();
+        returnedPatient.SetFhirId(fhirId);
+        var fhirPatientResponse = CreateFhirPatientResponse(returnedPatient);
         SetupHttpResponse(HttpStatusCode.OK, fhirPatientResponse);
 
         // Act
