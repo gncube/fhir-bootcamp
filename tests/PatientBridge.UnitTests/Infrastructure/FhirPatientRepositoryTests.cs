@@ -2,17 +2,15 @@
 using FluentAssertions;
 using Moq;
 using Moq.Protected;
-using Xunit;
 using PatientBridge.Core.Domain.Patients;
 using PatientBridge.Core.Domain.Patients.ValueObjects;
-// using PatientBridge.Infrastructure.Fhir; // TODO: Implement FhirPatientRepository
+using PatientBridge.Infrastructure.Fhir;
 using System.Net;
 using System.Text;
+using Xunit;
 
 namespace PatientBridge.UnitTests.Infrastructure;
 
-// TODO: Uncomment and implement when FhirPatientRepository is created
-/*
 public class FhirPatientRepositoryTests
 {
     private readonly Mock<HttpMessageHandler> _mockHttpHandler;
@@ -118,5 +116,22 @@ public class FhirPatientRepositoryTests
         result.Value.Should().HaveCount(2);
     }
 
+    [Fact]
+    public async Task GetByFhirIdAsync_WithValidId_ShouldReturnPatient()
+    {
+        // Arrange
+        var fhirId = "patient-123";
+        var fhirPatientResponse = CreateFhirPatientResponse(fhirId);
+        SetupHttpResponse(HttpStatusCode.OK, fhirPatientResponse);
+
+        // Act
+        var result = await _repository.GetByFhirIdAsync(fhirId);
+
+        // Assert
+        result.IsSuccess.Should().BeTrue();
+
+        result.Value.Should().NotBeNull();
+
+    }
+
 }
-*/
